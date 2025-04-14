@@ -40,7 +40,7 @@ Some endpoints require a bearer token. Use the following in headers:
 Authorization: "Whatever the secret key you use for Authorization"
 ```
 
-## 📘 API Endpoints
+## API Endpoints
 
 ### `GET /tasks`
 
@@ -97,7 +97,6 @@ Key: Authorization
 Value: "Secret key"
 ```
 
-## 🛠 Notes
+## Notes
 
-- Tasks are stored in memory; data is lost on server restart if we wnat to perform the CRUD operation we can use MongoDB as wel for better user experience
-- Change the bearer token or authentication logic in `authMiddleware.js`.
+- Tasks are stored in memory; data is lost on server restart if we wnat to perform the CRUD operation we can use MongoDB as wel for better user experience.
